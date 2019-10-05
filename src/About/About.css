@@ -1,0 +1,117 @@
+.headshot {
+    margin: 10px auto;
+    display: block;
+    border-radius: 10000px;
+    max-height: 100px;
+}
+
+.about-box {
+    max-width: 550px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    /* 
+    position: absolute;
+    margin: auto;
+    padding: 20px 50px;
+    text-align: left;
+    left: 0;
+    right: 0;
+    width: 65%;
+    border-radius: 5px;
+    */
+} 
+
+.about {
+    margin-top: 30px;
+}
+.about2 {
+    margin-top: 20px;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-links a {
+    flex:1;
+}
+
+.contact-icon {
+    width: 30px; /* you can use % */
+    height: auto;
+}
+.contact-description {
+    visibility: hidden;
+    color: black;
+}
+
+.contact-link:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact-link:hover .contact-description {
+    visibility: visible;
+}
+
+nav.contact {
+    margin: 40px 0;
+}
+
+
+@media (min-width: 720px) {
+    
+
+    /* nav.contact {
+        position: relative;
+        top: 450px;
+    } */
+
+    .contact-links, .hidden-descriptors {
+        display: flex;
+        /* margin-top: 5px; */
+        width: 100%;
+        margin: auto;
+    }
+    
+    .email-words {
+        margin-left: 8%
+    }
+    
+    .linkedin-words {
+        margin-left: 27%;
+    }
+    
+    .github-words {
+        margin-left: 60%;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+
+    /* nav.contact {
+        position: relative;
+        top: 420px;
+        margin: auto;
+    }
+
+    .contact-link {
+        padding: 0px 50px;
+    }
+    .email-words {
+        margin-left: 8%
+    }
+    
+    .linkedin-words {
+        margin-left: 23%;
+    }
+    
+    .github-words {
+        margin-left: 55%;
+    } */
+}
