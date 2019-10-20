@@ -10,10 +10,9 @@ class Nav extends Component {
         }
     }
 
-    render() {
+    render = () => {
         return (
-        <nav className="main-nav collapsed">    
-          
+            <nav className="main-nav collapsed">
                 <Link className="nav-link home-button active" to="/">
                     <p className='nav-description'>Home</p>
                 </Link>
@@ -23,8 +22,7 @@ class Nav extends Component {
                 <Link className="nav-link work-button" to="/work">
                     <p className='nav-description'>My Work</p>
                 </Link>
-         
-        </nav>)
+            </nav>)
     }
 }
 

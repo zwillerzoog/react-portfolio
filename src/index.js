@@ -1,22 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Route, Link, BrowserRouter as Router} from 'react-router-dom'
+import {Route, Switch, BrowserRouter as Router} from 'react-router-dom'
 import './index.css';
-import App from './App';
 import Title from './Title';
-import Work from './Work';
+import Work from './Work/Work';
 import About from './About/About';
 import Nav from './Nav';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
     <Router>
-        <Nav/>
-        <div>
+         <Nav/>
+        <Switch>
             <Route exact path='/' component={Title} />
             <Route path='/work' component={Work} />
             <Route path='/about' component={About} />
-        </div>
+        </Switch>
     </Router>, 
     
     document.getElementById('root'));

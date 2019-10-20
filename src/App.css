@@ -7,7 +7,8 @@ body {
   background-position-x: center;
   background-repeat:no-repeat;
   /* background-color: #f4f5f9; */
-  height: 500px;
+  /* height: 500px; */
+  width:100%;
   color: #505260;
   font-family: 'Raleway', sans-serif;
 }
