@@ -9,7 +9,7 @@ import Nav from './Nav';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
          <Nav/>
         <Switch>
             <Route exact path='/' component={Title} />
