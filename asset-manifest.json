@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b1b561a0.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.8ed5a73b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.8ed5a73b.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.12f49f2d.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.12f49f2d.js.map",
+    "static/js/2.00eac186.chunk.js": "/react-portfolio/static/js/2.00eac186.chunk.js",
+    "static/js/2.00eac186.chunk.js.map": "/react-portfolio/static/js/2.00eac186.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "precache-manifest.32891858d5c78ee895c06ef27d086c75.js": "/react-portfolio/precache-manifest.32891858d5c78ee895c06ef27d086c75.js",
+    "service-worker.js": "/react-portfolio/service-worker.js",
+    "static/css/main.b1b561a0.chunk.css.map": "/react-portfolio/static/css/main.b1b561a0.chunk.css.map",
+    "static/media/feedback_screenshot.png": "/react-portfolio/static/media/feedback_screenshot.0e3b3108.png",
+    "static/media/headshot_pic.jpeg": "/react-portfolio/static/media/headshot_pic.890df557.jpeg",
+    "static/media/rex_screenshot.png": "/react-portfolio/static/media/rex_screenshot.55fd4355.png",
+    "static/media/index.css": "/react-portfolio/static/media/running-horse-once.9ca2d6ce.gif",
+    "static/media/savage_screenshot.png": "/react-portfolio/static/media/savage_screenshot.7c5533ae.png"
+  }
+}
